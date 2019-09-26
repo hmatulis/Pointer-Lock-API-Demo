@@ -42,7 +42,7 @@ function lockChangeAlert() {
 
 function updatePosition(e) {
   x__ += e.movementX;
-  y__ += e.movementY;
+  x__ += e.movementY; // USE BOTH AXIS to update position !
 }
 
 function draw() {
